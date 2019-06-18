@@ -134,3 +134,9 @@ html,
 body {
   height: 100%;
 }
+/* variables for color and font stacks */
+.container {
+  width: 880px;
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+}
