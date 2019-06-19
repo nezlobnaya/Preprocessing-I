@@ -135,8 +135,166 @@ body {
   height: 100%;
 }
 /* variables for color and font stacks */
+html {
+  font-size: 62.5%;
+}
 .container {
   width: 880px;
   margin: 0 auto;
   font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+}
+.container h2 {
+  font-size: 2rem;
+}
+.container h3 {
+  font-size: 1.8rem;
+}
+.container header {
+  text-align: center;
+  font-size: 2.4rem;
+  margin-top: 5px;
+}
+.container header nav {
+  display: flex;
+  margin: 5px 5px;
+  padding: 10px 10px;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.container header nav a {
+  margin: 0 20px;
+  text-decoration: none;
+  color: #969ca5;
+  font-size: 1.8rem;
+}
+.container .top-content {
+  display: flex;
+  background-color: #DCDEE2;
+}
+.container .top-content .intro {
+  margin-top: 5px;
+  padding: 5px 5px;
+}
+.container .top-content .intro .top-image {
+  max-width: 40%;
+  height: auto;
+}
+.container .top-content .intro .text-features1 {
+  border-bottom: thin #2E333E;
+  border-style: ridge;
+  padding: 10px 0px 10px;
+}
+.container .top-content .intro .text-features1 h2 {
+  font-size: 3.4rem;
+  padding-top: 5px;
+}
+.container .top-content .intro .text-features1 h3 {
+  padding: 5px 5px;
+}
+.container .top-content .intro .text-features2 {
+  padding: 10px 0px 10px;
+  line-height: 20px;
+}
+.container .top-content .intro .text-features2 button {
+  font-size: 1.8rem;
+  color: white;
+  background-color: #2E333E;
+  border-radius: 5px;
+  padding: 5px 5px;
+}
+.container .top-content .intro .text-features2 p {
+  padding-bottom: 5px;
+}
+.container .main-content {
+  display: flex;
+  margin: 5px 5px;
+  padding: 5px 10px;
+}
+.container .main-content .left-pitch h2 {
+  padding-bottom: 3px;
+}
+.container .main-content .left-pitch p {
+  line-height: 19px;
+}
+.container .main-content .right-skills {
+  width: 50%;
+  margin-left: 20px;
+}
+.container .main-content .right-skills h2 {
+  padding-bottom: 3px;
+}
+.container .main-content .right-skills .rows {
+  padding: 0px 5px;
+}
+.container .main-content .right-skills .rows .row1 {
+  border: solid #DCDEE2;
+  font-size: 1.5rem;
+  padding: 5px 5px;
+}
+.container .main-content .right-skills .rows .row2 {
+  border: solid #DCDEE2;
+  border-top: 0;
+  font-size: 1.5rem;
+  padding: 5px 5px;
+}
+.container .main-content .right-skills .rows .row3 {
+  border: solid #DCDEE2;
+  border-top: 0;
+  font-size: 1.5rem;
+  padding: 5px 5px;
+}
+.container .main-content .right-skills .rows .row4 {
+  border: solid #DCDEE2;
+  border-top: 0;
+  font-size: 1.5rem;
+  padding: 5px 5px;
+}
+.container .main-content .right-skills .rows .row5 {
+  border: solid #DCDEE2;
+  border-top: 0;
+  font-size: 1.5rem;
+  padding: 5px 5px;
+}
+.container .work-history {
+  display: flex;
+  margin: 5px 5px;
+  padding: 5px 10px;
+  flex-direction: column;
+  line-height: 19px;
+}
+.container .work-history h2 {
+  padding-bottom: 3px;
+}
+.container .work-history tr {
+  border: solid #DCDEE2;
+  font-size: 1.5rem;
+  padding: 5px 5px;
+}
+.container .work-history tr th {
+  padding: 5px 5px;
+}
+.container .work-history tr td {
+  padding: 5px 5px;
+}
+.container .contact-section {
+  display: flex;
+  margin: 5px 5px;
+  padding: 5px 10px;
+  flex-direction: column;
+}
+.container .contact-section h3 {
+  padding-bottom: 3px;
+}
+.container .contact-section .phone {
+  padding-top: 7px;
+}
+.container .contact-section .email {
+  padding-top: 5px;
+}
+.container footer {
+  text-align: center;
+  background-color: #2E333E;
+  padding: 5px 5px;
+  color: white;
 }
