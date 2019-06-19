@@ -144,6 +144,11 @@ html {
   font-family: "Roboto", sans-serif;
   font-size: 1.5rem;
 }
+@media (max-width: 500px) {
+  .container {
+    width: 500px;
+  }
+}
 .container h2 {
   font-size: 2rem;
 }
@@ -154,6 +159,11 @@ html {
   text-align: center;
   font-size: 2.4rem;
   margin-top: 5px;
+}
+@media (max-width: 500px) {
+  .container header {
+    width: 80%;
+  }
 }
 .container header nav {
   display: flex;
@@ -168,13 +178,26 @@ html {
   color: #969ca5;
   font-size: 1.8rem;
 }
+.container header nav a:hover {
+  color: #2E333E;
+}
 .container .top-content {
   display: flex;
   background-color: #DCDEE2;
 }
+@media (max-width: 500px) {
+  .container .top-content {
+    width: 90%;
+  }
+}
 .container .top-content .intro {
   margin-top: 5px;
   padding: 5px 5px;
+}
+@media (max-width: 500px) {
+  .container .top-content .intro {
+    width: 500px;
+  }
 }
 .container .top-content .intro .top-image {
   max-width: 40%;
@@ -196,12 +219,20 @@ html {
   padding: 10px 0px 10px;
   line-height: 20px;
 }
+@media (max-width: 500px) {
+  .container .top-content .intro .text-features2 {
+    width: 60%;
+  }
+}
 .container .top-content .intro .text-features2 button {
   font-size: 1.8rem;
   color: white;
   background-color: #2E333E;
   border-radius: 5px;
   padding: 5px 5px;
+}
+.container .top-content .intro .text-features2 button:hover {
+  background-color: #969ca5;
 }
 .container .top-content .intro .text-features2 p {
   padding-bottom: 5px;
@@ -210,6 +241,17 @@ html {
   display: flex;
   margin: 5px 5px;
   padding: 5px 10px;
+}
+@media (max-width: 500px) {
+  .container .main-content {
+    width: 80%;
+  }
+}
+@media (max-width: 500px) {
+  .container .main-content .left-pitch {
+    width: 50%;
+    line-height: 5rem;
+  }
 }
 .container .main-content .left-pitch h2 {
   padding-bottom: 3px;
@@ -221,8 +263,18 @@ html {
   width: 50%;
   margin-left: 20px;
 }
+@media (max-width: 500px) {
+  .container .main-content .right-skills {
+    width: 70%;
+  }
+}
 .container .main-content .right-skills h2 {
   padding-bottom: 3px;
+}
+@media (max-width: 500px) {
+  .container .main-content .right-skills h2 {
+    padding: 1.5rem;
+  }
 }
 .container .main-content .right-skills .rows {
   padding: 0px 5px;
@@ -232,11 +284,21 @@ html {
   font-size: 1.5rem;
   padding: 5px 5px;
 }
+@media (max-width: 500px) {
+  .container .main-content .right-skills .rows .row1 {
+    padding: 3rem;
+  }
+}
 .container .main-content .right-skills .rows .row2 {
   border: solid #DCDEE2;
   border-top: 0;
   font-size: 1.5rem;
   padding: 5px 5px;
+}
+@media (max-width: 500px) {
+  .container .main-content .right-skills .rows .row2 {
+    padding: 3rem;
+  }
 }
 .container .main-content .right-skills .rows .row3 {
   border: solid #DCDEE2;
@@ -244,17 +306,32 @@ html {
   font-size: 1.5rem;
   padding: 5px 5px;
 }
+@media (max-width: 500px) {
+  .container .main-content .right-skills .rows .row3 {
+    padding: 3rem;
+  }
+}
 .container .main-content .right-skills .rows .row4 {
   border: solid #DCDEE2;
   border-top: 0;
   font-size: 1.5rem;
   padding: 5px 5px;
 }
+@media (max-width: 500px) {
+  .container .main-content .right-skills .rows .row4 {
+    padding: 3rem;
+  }
+}
 .container .main-content .right-skills .rows .row5 {
   border: solid #DCDEE2;
   border-top: 0;
   font-size: 1.5rem;
   padding: 5px 5px;
+}
+@media (max-width: 500px) {
+  .container .main-content .right-skills .rows .row5 {
+    padding: 3rem;
+  }
 }
 .container .work-history {
   display: flex;
@@ -263,6 +340,11 @@ html {
   flex-direction: column;
   line-height: 19px;
 }
+@media (max-width: 500px) {
+  .container .work-history {
+    width: 75%;
+  }
+}
 .container .work-history h2 {
   padding-bottom: 3px;
 }
@@ -270,6 +352,11 @@ html {
   border: solid #DCDEE2;
   font-size: 1.5rem;
   padding: 5px 5px;
+}
+@media (max-width: 500px) {
+  .container .work-history tr {
+    padding: 3rem 3rem;
+  }
 }
 .container .work-history tr th {
   padding: 5px 5px;
@@ -297,4 +384,9 @@ html {
   background-color: #2E333E;
   padding: 5px 5px;
   color: white;
+}
+@media (max-width: 500px) {
+  .container footer {
+    width: 80%;
+  }
 }

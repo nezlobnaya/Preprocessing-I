@@ -82,6 +82,10 @@ html {
 	font-family: @my-font;
 	font-size: 1.5rem;
 
+	@media (max-width: 500px) {
+		width: 500px;
+		}
+
 	h2 {
 		font-size: 2rem;
 	}
@@ -91,6 +95,10 @@ html {
 	}
 
 	header {
+
+		@media (max-width: 500px) {
+			width: 80%;
+		  }
 
 		.h1();
 
@@ -107,6 +115,10 @@ html {
 		  .font();
 		  font-size: 1.8rem;
 		 }	
+
+		 a:hover {
+			color: @charade;
+		 }
 		}
 	}
 
@@ -114,9 +126,17 @@ html {
 		display: flex;
 		background-color: @iron;
 
+		@media (max-width: 500px) {
+			width: 90%;
+		  }
+
 		.intro {
 		 margin-top: 5px;
 		 padding: 5px 5px;
+
+		 @media (max-width: 500px) {
+			width: 500px;
+		  }
 
 		  .top-image {
 			max-width: 40%;
@@ -142,12 +162,20 @@ html {
 			padding: 10px 0px 10px;
 			line-height: 20px;
 
+			@media (max-width: 500px) {
+				width: 60%;
+			  }
+
 			button {
 			 font-size: 1.8rem;
 			 color: white;
 			 background-color: @charade;
 			 border-radius: 5px;
 			 padding: 5px 5px;
+			}
+
+			button:hover {
+			  background-color: @manatee;
 			}
 
 			p {
@@ -162,7 +190,17 @@ html {
 		margin: 5px 5px;
 		padding: 5px 10px;
 
+		@media (max-width: 500px) {
+			width: 80%;
+		  }
+
 		.left-pitch {
+
+			@media (max-width: 500px) {
+				width: 50%;
+				line-height: 5rem;
+			  }
+
 			h2 {
 			 padding-bottom: 3px;	
 			}
@@ -174,8 +212,18 @@ html {
 		.right-skills {
 		 width: 50%;
 		 margin-left: 20px;
+			
+		  @media (max-width: 500px) {
+			width: 70%;
+
+		   }
+
 		   h2 {	
 			padding-bottom: 3px;
+
+			@media (max-width: 500px) {
+				padding: 1.5rem;
+			  }
 		   }
 		   .rows {
 			padding: 0px 5px;
@@ -183,12 +231,20 @@ html {
 				border: solid @iron;
 				font-size: 1.5rem;
 				padding: 5px 5px;
+
+				@media (max-width: 500px) {
+					padding: 3rem;
+				  }
 			}
 			 .row2 {
 				border: solid @iron;
 				border-top: 0;
 				font-size: 1.5rem;
 				padding: 5px 5px;
+
+				@media (max-width: 500px) {
+					padding: 3rem;
+				  }
 			}
 
 			.row3 {
@@ -196,6 +252,10 @@ html {
 				border-top: 0;
 				font-size: 1.5rem;
 				padding: 5px 5px;
+
+				@media (max-width: 500px) {
+					padding: 3rem;
+				  }
 			}
 
 			.row4 {
@@ -203,6 +263,10 @@ html {
 				border-top: 0;
 				font-size: 1.5rem;
 				padding: 5px 5px;
+
+				@media (max-width: 500px) {
+					padding: 3rem;
+				  }
 			}
 
 			.row5 {
@@ -210,6 +274,10 @@ html {
 				border-top: 0;
 				font-size: 1.5rem;
 				padding: 5px 5px;
+
+				@media (max-width: 500px) {
+					padding: 3rem;
+				  }
 			}
 		   }
 		}
@@ -222,6 +290,10 @@ html {
 	  flex-direction: column;
 	  line-height: 19px;
 
+	  @media (max-width: 500px) {
+		width: 75%;
+	  }
+
 	   h2 {
 		padding-bottom: 3px;
 	   }
@@ -230,6 +302,10 @@ html {
 		  border: solid @iron;
 		  font-size: 1.5rem;
 		  padding: 5px 5px; 
+
+		  @media (max-width: 500px) {
+			padding: 3rem 3rem;
+		  }
 
 		  th {
 			  padding: 5px 5px;
@@ -264,6 +340,10 @@ html {
 		background-color: @charade;
 		padding: 5px 5px;
 		color: white;
+
+		@media (max-width: 500px) {
+			width: 80%;
+		  }
 	}
 
 }
